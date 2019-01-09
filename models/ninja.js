@@ -1,15 +1,15 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-//create ninja schema and module 
+//create ninja schema and modules 
 const NinjaSchema = new Schema({
     name: {
         type: String, 
         required: [true, "Name field is required"]
-    }
+    },
     rank: {
         type: String,
-    }
+    },
     available: {
         type: Boolean,
         default: false
@@ -18,4 +18,5 @@ const NinjaSchema = new Schema({
 });
 
 const Ninja = mongoose.model('ninja', NinjaSchema);
+ 
 module.exports = Ninja;
