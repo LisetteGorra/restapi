@@ -1,16 +1,12 @@
 const express = require('express');
+const routes = require('./routes/api');
 
 // set up express app
 const app = express();
 
-<<<<<<< HEAD
-=======
-app.get('/api', function(req, res){
-  res.send({ name: 'Beanie' });
-});
+app.use(routes);
 
->>>>>>> version5.0
 // listen for requests
-app.listen(process.env.PORT.process.env.IP,function(){
+app.listen(process.env.PORT, process.env.IP,function(){
     console.log('now listening for requests');
 });
