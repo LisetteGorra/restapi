@@ -9,6 +9,7 @@ const app = express();
 mongoose.connect('mongodb://localhost/ninjago');
 mongoose.Promise = global.Promise;
 
+//use boday-parser middleware
 app.use(bodyParser.json());
 
 
