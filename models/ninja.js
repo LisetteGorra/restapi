@@ -28,6 +28,8 @@ const NinjaSchema = new Schema({
         default: false
         
     },
+    
+     
     // add in geo location
     geometry: GeoSchema
 });
