@@ -5,11 +5,11 @@ const Schema = mongoose.Schema;
 const GeoSchema = new Schema ({
     type: {
         type: String,
-        default: "Point"
+        default: 'Point'
     },
     coordinates: {
         type: [Number],
-        index: "2dsphere"
+        index: '2dsphere'
     }
 });
 
@@ -17,18 +17,17 @@ const GeoSchema = new Schema ({
 const NinjaSchema = new Schema({
     name: {
         type: String, 
-        required: [true, "Name field is required"]
+        required: [true, 'Name field is required']
     },
     rank: {
-        type: String,
-    
+        type: String
     },
     available: {
         type: Boolean,
         default: false
-        
     },
     // add in geo location
+    
     geometry: GeoSchema
 });
 
