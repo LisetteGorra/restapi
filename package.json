@@ -1,25 +1,23 @@
 {
-  "name": "rest-api-playlist",
+  "name": "restapinn",
   "version": "1.0.0",
-  "description": "Course files for the REST API tutorial series on The Net Ninja Youtube channel",
+  "description": "work",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamshaunjp/rest-api-playlist.git"
+    "url": "git+https://github.com/LisetteGorra/restapi.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "rest",
+    "api"
+  ],
+  "author": "me",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iamshaunjp/rest-api-playlist/issues"
+    "url": "https://github.com/LisetteGorra/restapi/issues"
   },
-  "homepage": "https://github.com/iamshaunjp/rest-api-playlist#readme",
-  "dependencies": {
-    "body-parser": "^1.16.1",
-    "express": "^4.14.1",
-    "mongoose": "^4.8.4"
-  }
+  "homepage": "https://github.com/LisetteGorra/restapi#readme"
 }
